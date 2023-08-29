@@ -22,5 +22,5 @@ const bankAccSchema = mongoose.Schema(
     }
 )
 
-const bankAccModel = mongoose.model("role", bankAccSchema);
+const bankAccModel = mongoose.model("bankAcc", bankAccSchema);
 module.exports = bankAccModel

@@ -27,5 +27,5 @@ const skillsSchema = mongoose.Schema(
     }
 )
 
-const skillsModel = mongoose.model("role", skillsSchema);
+const skillsModel = mongoose.model("skills", skillsSchema);
 module.exports = skillsModel

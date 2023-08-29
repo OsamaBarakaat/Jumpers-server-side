@@ -26,5 +26,5 @@ const workHoursSystemsSchema = mongoose.Schema(
     }
 )
 
-const workHoursSystemsModel = mongoose.model("role", workHoursSystemsSchema);
+const workHoursSystemsModel = mongoose.model("workHoursSystem", workHoursSystemsSchema);
 module.exports = workHoursSystemsModel

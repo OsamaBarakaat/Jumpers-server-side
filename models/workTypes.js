@@ -23,5 +23,5 @@ const workTypesSchema = mongoose.Schema(
     }
 )
 
-const workTypesModel = mongoose.model("role", workTypesSchema);
+const workTypesModel = mongoose.model("workTypes", workTypesSchema);
 module.exports = workTypesModel
