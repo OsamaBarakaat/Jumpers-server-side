@@ -1,7 +1,11 @@
 const mongoose = require("mongoose");
 const orderInfoSchema = mongoose.Schema(
     {
-        serviceName: {
+        sProvider: {
+            type: mongoose.SchemaTypes.ObjectId,
+            ref: "sProvider",
+            required: [true, "service provider ID is required"]
+        }, serviceName: {
             type: mongoose.SchemaTypes.ObjectId,
             ref: "service",
             required: [true, "service is required"]
