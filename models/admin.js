@@ -15,7 +15,7 @@ const adminSchema = mongoose.Schema(
             type: String,
             required: [true, "email of admin is required"],
             trim: true,
-            unique: true,
+            unique: false,
             lowercase: true
         },
         profilePicture: {

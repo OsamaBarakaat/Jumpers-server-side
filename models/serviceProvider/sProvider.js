@@ -1,21 +1,13 @@
 const mongoose = require("mongoose");
 const sProviderSvhema = mongoose.Schema(
     {
-        firstName_en: {
+        name_en: {
             type: String,
-            required: [true, 'firstName_en of service provider is required']
+            required: [true, 'name_en of service provider is required']
         },
-        lastName_en: {
+        name_ar: {
             type: String,
-            required: [true, 'lastName_en of service provider is required']
-        },
-        firstName_ar: {
-            type: String,
-            required: [true, 'firstName_ar of service provider is required']
-        },
-        lastName_ar: {
-            type: String,
-            required: [true, 'lastName_ar of service provider is required']
+            required: [true, 'name_ar of service provider is required']
         },
         profilePicture: {
             type: String,
